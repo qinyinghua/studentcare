@@ -17,7 +17,7 @@ Download.  Run following command:
 ```
 npm install
 
-npm run
+node server.js
 ```
 
 
