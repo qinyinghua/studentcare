@@ -1,0 +1,3 @@
+{ "name" : "myprofile module"
+, "main" : "myprofile.js"
+}
