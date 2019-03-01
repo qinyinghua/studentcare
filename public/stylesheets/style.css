@@ -1,0 +1,106 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2{
+	color:red;
+}
+
+form { 
+margin: 0 auto; 
+width:250px;
+}
+
+.border-spec{
+	border: 1px solid lightgray;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.m10s0{
+	margin: 10 0;
+}
+
+.m5s0{
+	margin: 5 0;
+}
+
+.box-format{
+	padding: 5px;
+    border-radius: 6px;
+    border: 1px solid darkgray;
+    font-size: 14px;
+}
+.main-form{
+	width:auto !important;
+	color:white !important;
+}
+.mt50{
+	margin-top:50px;
+}
+.mt30{
+	margin-top:30px;
+}
+.bck-body{
+	background-repeat: no-repeat;
+    /* width: 100; */
+    background-size: cover;
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ews2-IzX8g15snKu3G0GkJrAtHR7wBcpr1QcKCdK_OTg5GZuvg");*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlEYN9Hg1NrQaR0s_qyaJQntMUEHqd6aoYF_U4775lKWwu6SQd");
+}
+.report-form{
+	    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+	    color: white;
+    font-size: 16px;
+	text-align:center;
+}
+select{
+	width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    color: black !important;
+}
+.ml-20{
+	margin-left:-20px !important;
+}
+.ml-15{
+	margin-left:-15px !important;
+}
+.ml-120{
+	margin-left:-120px;
+}
+input{
+	color:black !important;
+}
+#id01, #id03{
+	color: #FFA500  !important;
+	font-size:22px;
+    font-weight: bold;
+}
+.blinking{
+    animation:blinkingText 1.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    50%{    color: transparent; }
+    99%{    color:#fff;  }
+    100%{   color: #fff;    }
+}
+.btn-primary{
+	color: white !important;
+	font-weight: 600;
+}
+textarea, input[type="number"]{
+	    width: 50%;
+    border-radius: 5px;
+	color:black !important;
+}
